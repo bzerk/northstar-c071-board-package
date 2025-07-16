@@ -1,0 +1,26 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m0plus",
+    "extra_flags": "-DARDUINO_NORTHSTAR_C071GBU6",
+    "f_cpu": "48000000L",
+    "mcu": "stm32c071cbu6",
+    "variant": "NorthStar_C071GBU6"
+  },
+  "connectivity": [
+    "usb"
+  ],
+  "debug": {
+    "openocd_target": "stm32c0x"
+  },
+  "frameworks": [
+    "arduino"
+  ],
+  "name": "North Star STM32C071GBU6 (Stereocamera)",
+  "upload": {
+    "maximum_ram_size": 20480,
+    "maximum_size": 131072,
+    "protocol": "dfu"
+  },
+  "vendor": "North Star Project"
+}
