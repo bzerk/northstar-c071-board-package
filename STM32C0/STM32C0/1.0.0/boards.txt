@@ -1,0 +1,13 @@
+# North Star Stereocamera STM32C071GBU6
+menu.upload_method=Upload method
+menu.usb=USB support (if available)
+
+northstar_c071.name=North Star STM32C071GBU6 (Stereocamera)
+northstar_c071.build.core=stm32
+northstar_c071.build.variant=NorthStar_C071GBU6
+northstar_c071.build.board=ARDUINO_NORTHSTAR_C071GBU6
+northstar_c071.upload.maximum_size=131072
+northstar_c071.upload.maximum_data_size=20480
+northstar_c071.upload.method=stm32cubeprog
+northstar_c071.menu.upload_method.stm32cubeprog=STM32CubeProgrammer (DFU)
+northstar_c071.menu.usb.none=CDC (generic 'Serial' supersede U(S)ART)

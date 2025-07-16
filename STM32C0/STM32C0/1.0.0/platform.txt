@@ -1,0 +1,6 @@
+name=North Star STM32C071GBU6 Platform
+version=1.0.0
+architecture=stm32
+compiler.path={runtime.tools.arm-none-eabi-gcc.path}/bin/
+build.core.path={runtime.platform.path}/cores/arduino
+build.variant.path={runtime.platform.path}/variants/{build.variant}
