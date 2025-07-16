@@ -1,0 +1,27 @@
+{
+  "packages": [
+    {
+      "name": "northstar",
+      "maintainer": "Noah Zerkin",
+      "websiteURL": "https://github.com/bzerk/northstar-c071-board-package",
+      "email": "n/a",
+      "platforms": [
+        {
+          "name": "North Star STM32C071GBU6",
+          "architecture": "stm32",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://github.com/bzerk/northstar-c071-board-package/releases/download/v1.0.0/northstar-c071-1.0.0.zip",
+          "archiveFileName": "northstar-c071-1.0.0.zip",
+          "boards": [
+            {
+              "name": "North Star STM32C071GBU6 (Stereocamera)"
+            }
+          ],
+          "toolsDependencies": []
+        }
+      ],
+      "tools": []
+    }
+  ]
+}
